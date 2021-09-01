@@ -152,7 +152,7 @@ public class Steps {
 	{
 	    driver.getPageSource().contains("NHS prescriptions");
 	    Assert.assertTrue(true);
-	     driver.quit();
+	    // driver.quit();
 	}
 	
 	  
